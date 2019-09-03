@@ -19,10 +19,10 @@ module.exports = {
     },
     /* uncomment to deploy on rinkeby testnet
     rinkeby: {
-      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/${infuraKey}`),
+      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
       network_id: 4,          // Rinkeby's id
-      gas: 5500000,        
+      gas: 6700000,        
     },
-    */    
+    */
   }
 };
