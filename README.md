@@ -2,7 +2,7 @@
 
 The pet shop dApp is a demonstration of an end-to-end decentralized application i.e. Web 3.0. This allows you to adopt a pet by paying its fee using MetaMask on Rinkeby network.
 
-dApp URL: http://ipfs.io/ipfs/QmT6SgXKChuzz9nCTu8ZNtc8y7wLR3DjvH3rsEkcreiSDG 
+dApp URL: https://ipfs.io/ipfs/QmSGjVhzDhtyzyyPBRmsPRtaq7B4AKTFMkncSLx2dGhGKE/ 
 (Use Rinkeby with MetaMask to interact with the dApp and adopt a cute dog of your choice)
 
 ## Pre-requisites
@@ -144,15 +144,27 @@ $ mkdir dist/
 $ rsync -r src/ dist/
 $ rsync -r build/contracts/ dist/
 $ ls -l dist/
+```
 
+1. Manual way
+```
 $ ipfs add -r dist/
 
 $ ipfs name publish QmT6SgXKChuzz9nCTu8ZNtc8y7wLR3DjvH3rsEkcreiSDG
 Published to QmPXvSsJLEEdCX2P7v8ztkuoDgjCzxujXsmkocLmrJ9EfD: /ipfs/QmT6SgXKChuzz9nCTu8ZNtc8y7wLR3DjvH3rsEkcreiSDG
 ```
 
+2. Using a package
+Another way to deploy painlessly is to use a package `ipfs-deploy`:
+
+```
+$ mv dist/ site/
+$ npm install -g ipfs-deploy
+$ ipd -p infura
+```
+
 ## Access the dApp in the Browser
 
 While it is fine to access the dApp using Chrome, however, why not have a cool breeze of fully decentralized web; Web 3.0? Give Brave browser a try :)
 
-http://ipfs.io/ipfs/QmT6SgXKChuzz9nCTu8ZNtc8y7wLR3DjvH3rsEkcreiSDG
+https://ipfs.io/ipfs/QmSGjVhzDhtyzyyPBRmsPRtaq7B4AKTFMkncSLx2dGhGKE/

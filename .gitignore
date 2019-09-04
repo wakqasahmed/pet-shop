@@ -4,6 +4,7 @@ package-lock.json
 .infura-secret
 .secret
 build/
+.env
 
 # Created by .ignore support plugin (hsz.mobi)
 ### VisualStudioCode template
