@@ -2,6 +2,8 @@
 
 The pet shop dApp is a demonstration of an end-to-end decentralized application i.e. Web 3.0. This allows you to adopt a pet by paying its fee using MetaMask on Rinkeby network.
 
+dApp URL: https://pet-shop.dcentralize.app/
+
 dApp URL: https://ipfs.io/ipfs/QmSGjVhzDhtyzyyPBRmsPRtaq7B4AKTFMkncSLx2dGhGKE/ 
 (Use Rinkeby with MetaMask to interact with the dApp and adopt a cute dog of your choice)
 
