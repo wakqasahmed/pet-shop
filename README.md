@@ -7,7 +7,7 @@ dApp URL: https://pet-shop.dcentralize.app/
 dApp URL: https://ipfs.io/ipfs/QmSGjVhzDhtyzyyPBRmsPRtaq7B4AKTFMkncSLx2dGhGKE/ 
 (Use Rinkeby with MetaMask to interact with the dApp and adopt a cute dog of your choice)
 
-Deployed contract's validity can be found here: https://rinkeby.etherscan.io/address/0x83686F6357757Eb0feb09358c931577D3D96705B#code
+Deployed contract's source code is verified and can be found here: https://rinkeby.etherscan.io/address/0x83686F6357757Eb0feb09358c931577D3D96705B#code
 
 ## Pre-requisites
 
